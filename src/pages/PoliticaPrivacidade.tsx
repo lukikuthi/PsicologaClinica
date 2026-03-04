@@ -22,7 +22,7 @@ const PoliticaPrivacidade = () => {
             { title: "4. Cookies", text: "Este site pode utilizar cookies para melhorar a experiência de navegação. Os cookies são pequenos arquivos armazenados no seu navegador que nos ajudam a entender como o site é utilizado. Você pode desabilitar os cookies nas configurações do seu navegador." },
             { title: "5. Segurança dos Dados", text: "Adotamos medidas de segurança adequadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhuma transmissão de dados pela internet é completamente segura." },
             { title: "6. Seus Direitos", text: "Em conformidade com a LGPD, você tem o direito de acessar, corrigir, excluir ou portar seus dados pessoais. Para exercer esses direitos, entre em contato pelo e-mail contato@esteladuarte.com.br." },
-            { title: "7. Contato", text: "Para dúvidas sobre esta política de privacidade, entre em contato: contato@esteladuarte.com.br ou (11) 99999-9999." },
+            { title: "7. Contato", text: "Para dúvidas sobre esta política de privacidade, entre em contato: lucaskikuthi@gmail.com ou (11) 99999-9999." },
           ].map((section, i) => (
             <AnimatedSection key={i} delay={i * 0.05}>
               <h2 className="text-xl font-serif font-medium text-foreground mb-3">{section.title}</h2>

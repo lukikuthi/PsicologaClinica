@@ -98,13 +98,13 @@ const Contato = () => {
                 <div>
                   <h3 className="font-serif text-xl font-medium text-foreground mb-4">Informações de Contato</h3>
                   <div className="space-y-4">
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+                    <a href="https://api.whatsapp.com/send/?phone=5511969987340&text=Ol%C3%A1%21+Gostaria+de+falar+com+o+Lucas&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"
                       className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
                       <Phone size={16} className="text-primary" /> (11) 99999-9999 — WhatsApp
                     </a>
-                    <a href="mailto:contato@esteladuarte.com.br"
+                    <a href="mailto:lucaskikuthi@gmail.com"
                       className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors">
-                      <Mail size={16} className="text-primary" /> contato@esteladuarte.com.br
+                      <Mail size={16} className="text-primary" /> lucaskikuthi@gmail.com
                     </a>
                     <p className="flex items-start gap-3 text-sm text-muted-foreground">
                       <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
@@ -131,7 +131,7 @@ const Contato = () => {
                 </div>
 
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://api.whatsapp.com/send/?phone=5511969987340&text=Ol%C3%A1%21+Gostaria+de+falar+com+o+Lucas&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center px-8 py-3.5 bg-[#25D366] text-primary-foreground font-sans text-sm rounded-sm hover:opacity-90 transition-opacity"

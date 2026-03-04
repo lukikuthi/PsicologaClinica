@@ -45,8 +45,8 @@ const Footer = () => {
               <a href="tel:+5511999999999" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Phone size={14} /> (11) 99999-9999
               </a>
-              <a href="mailto:contato@esteladuarte.com.br" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-                <Mail size={14} /> contato@esteladuarte.com.br
+              <a href="mailto:lucaskikuthi@gmail.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Mail size={14} /> lucaskikuthi@gmail.com
               </a>
               <p className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin size={14} className="mt-0.5 shrink-0" /> Rua Augusta, 1234 — Sala 56<br />Consolação, São Paulo — SP
@@ -68,14 +68,14 @@ const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © 2026 Estela Duarte — Psicóloga Clínica — CRP 06/123456
+            © 2026 Estela Duarte — Psicóloga Clínica — Projeto para Portfolio do Melhor.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/politica-de-privacidade" className="text-xs text-muted-foreground hover:text-primary transition-colors">
               Política de Privacidade
             </Link>
             <span className="flex items-center gap-1 text-xs text-muted-foreground">
-              Feito com <Heart size={10} className="text-primary" /> em São Paulo
+              Feito com <Heart size={10} className="text-primary" /> pelo Lucas kikuthi
             </span>
           </div>
         </div>
