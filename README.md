@@ -1,4 +1,4 @@
-# Estela Duarte — Psicóloga Clínica
+# Estela Duarte — Clínica Psicóloga 
 
 Site profissional para consultório de psicologia com foco em design elegante e experiência do usuário.
 
