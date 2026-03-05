@@ -20,7 +20,7 @@ const Index = () => {
           />
         </div>
 
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-20">
           <div className="max-w-xl">
             {/* Vertical decorative line */}
             <div className="w-px h-16 bg-primary/40 mb-8" />
@@ -66,8 +66,8 @@ const Index = () => {
         </div>
 
         {/* Mobile hero image */}
-        <div className="absolute bottom-0 right-0 w-full h-48 lg:hidden">
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent z-10" />
+        <div className="absolute bottom-0 right-0 w-full h-48 lg:hidden z-0">
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
           <img src={heroImage} alt="" className="w-full h-full object-cover opacity-30" />
         </div>
       </section>
