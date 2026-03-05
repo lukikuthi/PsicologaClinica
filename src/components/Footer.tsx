@@ -67,15 +67,15 @@ const Footer = () => {
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-muted-foreground">
-            © 2026 Estela Duarte — Psicóloga Clínica — Projeto para Portfolio do Melhor.
+          <p className="text-xs text-muted-foreground text-center md:text-left">
+            © 2026 Estela Duarte — Psicóloga Clínica — Projeto Demonstrativo
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <Link to="/politica-de-privacidade" className="text-xs text-muted-foreground hover:text-primary transition-colors">
               Política de Privacidade
             </Link>
             <span className="flex items-center gap-1 text-xs text-muted-foreground">
-              Feito com <Heart size={10} className="text-primary" /> pelo Lucas kikuthi
+              Desenvolvido com <Heart size={10} className="text-primary" /> por Lucas Kikuthi
             </span>
           </div>
         </div>

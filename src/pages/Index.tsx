@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, Shield, Sparkles, MessageCircle, Brain, Users } from "lucide-react";
+import { ArrowRight, Heart, Shield, Sparkles, MessageCircle, Brain, Users, Award } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import Layout from "@/components/Layout";
 import heroImage from "@/assets/hero-image.jpg";
@@ -50,13 +50,13 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contato"
-                  className="px-8 py-3.5 bg-primary text-primary-foreground font-sans text-sm tracking-wide rounded-sm hover:opacity-90 transition-opacity flex items-center gap-2"
+                  className="px-8 py-3.5 bg-primary text-primary-foreground font-sans text-sm tracking-wide rounded-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
                 >
                   Agendar Consulta <ArrowRight size={16} />
                 </Link>
                 <Link
                   to="/abordagem"
-                  className="px-8 py-3.5 border border-primary/30 text-foreground font-sans text-sm tracking-wide rounded-sm hover:bg-primary/5 transition-colors"
+                  className="px-8 py-3.5 border border-primary/30 text-foreground font-sans text-sm tracking-wide rounded-sm hover:bg-primary/5 transition-colors text-center"
                 >
                   Conheça Meu Trabalho
                 </Link>
@@ -191,6 +191,45 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Certificados */}
+      <section className="py-24 bg-secondary">
+        <div className="container mx-auto px-6 lg:px-12">
+          <AnimatedSection>
+            <div className="text-center max-w-3xl mx-auto">
+              <Award size={32} className="text-primary mx-auto mb-6" strokeWidth={1.5} />
+              <p className="text-sm font-sans tracking-[0.2em] uppercase text-primary mb-4">Certificado</p>
+              <h2 className="text-3xl md:text-4xl font-serif font-light text-foreground mb-6">
+                Projeto desenvolvido por<br />
+                <span className="italic text-primary">Lucas Kikuthi</span>
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-8">
+                Este projeto foi inteiramente desenvolvido por Lucas Kikuthi como demonstração de
+                habilidades em design, desenvolvimento front-end e experiência do usuário. Todos os
+                direitos reservados.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://github.com/lukikuthi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-2.5 border border-primary/30 text-foreground font-sans text-sm rounded-sm hover:bg-primary/5 transition-colors inline-flex items-center justify-center gap-2"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://linkedin.com/in/lucaskikuthi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-2.5 border border-primary/30 text-foreground font-sans text-sm rounded-sm hover:bg-primary/5 transition-colors inline-flex items-center justify-center gap-2"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* Depoimentos */}
       <section className="py-24">
         <div className="container mx-auto px-6 lg:px-12">
@@ -248,7 +287,7 @@ const Index = () => {
             </p>
             <Link
               to="/contato"
-              className="inline-flex items-center gap-2 px-8 py-3.5 bg-primary-foreground text-primary font-sans text-sm tracking-wide rounded-sm hover:opacity-90 transition-opacity"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-primary-foreground text-primary font-sans text-sm tracking-wide rounded-sm hover:opacity-90 transition-opacity"
             >
               Agendar Primeira Consulta <ArrowRight size={16} />
             </Link>
